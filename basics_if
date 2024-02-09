@@ -1,0 +1,8 @@
+number=int(input("enter the number of purchases: "))
+for i in range (0,number):
+ amount = int(input("Enter the amount: "))
+ if amount > 1000:
+    discount = amount * 10 / 100
+    a=amount - discount
+    print("Discount =",discount)
+ print("amount = ", a)
